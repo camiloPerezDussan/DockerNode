@@ -1,0 +1,7 @@
+version: '3.0'
+
+services:
+    reactappcontainer:
+        build: prueba
+        ports: 
+            - "3000:3000"
